@@ -38,7 +38,7 @@ public class ArticulateController {
     addAppEnv(request, model);
     return "index";
   }
-  //full complete code
+  //full complete code done
   @RequestMapping("/ping")
   @ResponseBody
   public String health() {
